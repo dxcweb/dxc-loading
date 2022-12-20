@@ -1,6 +1,7 @@
-node_modules
-/dist
-.dumi/tmp
-.dumi/tmp-test
-.dumi/tmp-production
-.DS_Store
+/coverage
+/demo/dist
+/es
+/lib
+/node_modules
+/umd
+npm-debug.log*

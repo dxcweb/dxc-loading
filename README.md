@@ -1,40 +1,12 @@
-# aa
-
-[![NPM version](https://img.shields.io/npm/v/aa.svg?style=flat)](https://npmjs.org/package/aa)
-[![NPM downloads](http://img.shields.io/npm/dm/aa.svg?style=flat)](https://npmjs.org/package/aa)
-
-
-
-## Usage
-
-TODO
-
-## Options
-
-TODO
-
-## Development
-
-```bash
-# install dependencies
-$ yarn install
-
-# develop library by docs demo
-$ yarn start
-
-# build library source code
-$ yarn run build
-
-# build library source code in watch mode
-$ yarn run build:watch
-
-# build docs
-$ yarn run docs:build
-
-# check your project for potential problems
-$ yarn run doctor
+# dxc-addcomponent
+dxc-addcomponent使用函数来快速添加react组件
+## install
 ```
+yarn add dxc-addcomponent
 
-## LICENSE
-
-MIT
+## Example
+```
+addComponent((remove) => {
+      return <div onClick={remove}>点击关闭</div>;
+});
+```

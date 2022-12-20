@@ -8,6 +8,6 @@
         "jsxSingleQuote": true,
         "trailingComma": "all",
         "arrowParens":"always"
-      }]
+      }],
     }
-}
+  }

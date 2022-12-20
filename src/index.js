@@ -1,3 +1,4 @@
+import React from "react";
 import addcomponent from "dxc-addcomponent";
 import Loading from "./Loading";
 
